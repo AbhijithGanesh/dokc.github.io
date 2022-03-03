@@ -1,14 +1,14 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/duotoneLight");
+const lightCodeTheme = require("prism-react-renderer/themes/vsLight");
 const darkCodeTheme = require("prism-react-renderer/themes/nightOwl");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://dokc.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -21,18 +21,14 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
+        docs: {},
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
+
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -43,9 +39,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} **/
     {
-      hideableSidebar: true,
-      colorMode:{
-          defaultMode: 'dark'
+      hideableSidebar: false,
+      colorMode: {
+        defaultMode: "dark",
       },
       navbar: {
         title: "How-to-DoK",
@@ -56,27 +52,27 @@ const config = {
         hideOnScroll: true,
         items: [
           {
-            type: "doc",
-            docId: "intro",
+            to: "docs/Tutorials/intro",
             position: "left",
             label: "Setting up",
           },
-
-          { to: "blog", label: "Blog", position: "left" },
-
           {
-            type: "search",
-            position: "right",
+            to: "docs/Documentation/introduction",
+            position: "left",
+            label: "Docs",
           },
           {
-            type: "doc",
-            docId: "Videos/List",
+            to: "docs/videos/markdown-features",
             position: "left",
             label: "Videos",
           },
-
           {
-            href: "https://github.com/dokc/dokc.github.io/",
+            to: "blog",
+            label: "Blog",
+            position: "left",
+          },
+          {
+            href: "https://github.com/dokc",
             label: "GitHub",
             position: "right",
           },
@@ -89,11 +85,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-              {
-                label: "Gully Boi",
+                label: "Docs",
                 to: "/documentation/",
               },
             ],
