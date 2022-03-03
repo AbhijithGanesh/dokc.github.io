@@ -41,8 +41,12 @@ const config = {
   ],
 
   themeConfig:
-    /* @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} **/
     {
+      hideableSidebar: true,
+      colorMode:{
+          defaultMode: 'dark'
+      },
       navbar: {
         title: "How-to-DoK",
         logo: {
@@ -63,6 +67,12 @@ const config = {
           {
             type: "search",
             position: "right",
+          },
+          {
+            type: "doc",
+            docId: "Videos/List",
+            position: "left",
+            label: "Videos",
           },
 
           {
