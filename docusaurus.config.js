@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/dok-icon.png",
   organizationName: "Data on Kuberentes", // Usually your GitHub org/user name.
   projectName: "dokc-docs", // Usually your repo name.
 
@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Data on Kubernetes Community, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
