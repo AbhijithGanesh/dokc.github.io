@@ -69,7 +69,7 @@ const config = {
             label: "Docs",
           },
           {
-            to: "docs/videos/markdown-features",
+            to: "docs/videos/",
             position: "left",
             label: "Videos",
           },
