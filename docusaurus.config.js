@@ -79,10 +79,16 @@ const config = {
             position: "left",
           },
           {
+            to: "docs/Working-Groups",
+            label:"Working-Groups",
+            position: "left"
+          },
+          {
             href: "https://github.com/dokc",
             label: "GitHub",
             position: "right",
           },
+          
         ],
       },
       footer: {
