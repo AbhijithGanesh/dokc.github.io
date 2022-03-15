@@ -14,6 +14,6 @@ To be filled
 
 ## Links
 
-**Repository: https:// github.com/dokc/how-to-dok-api/**
+**Repository: https://github.com/dokc/how-to-dok-api/**
 
 **Slack Channel: [Join us](https://dokcommunity.slack.com/archives/C036HC59Z2T)**
