@@ -1,3 +1,5 @@
+# Operations - Working Group
+
 ## Targets
 
 - The establishment of various GitHub actions that’d test incoming changes
@@ -5,10 +7,7 @@
 - Overseeing deployment of various services that are being built
 - DevOpsifying the whole setup
 
-
-## Details
-
-TO BE FILLED
+#### View the links to know More!
 
 ## Links
 
