@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/nightOwl");
 const config = {
   title: "Data on Kubernetes",
   tagline: "Data on K8s is cool",
-  url: "https://dokc.github.io",
-  baseUrl: "/",
+  url: "https://dokc.github.io/",
+  baseUrl: "docs-rap-god-api/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/dok-icon.png",
