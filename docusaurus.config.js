@@ -9,7 +9,7 @@ const config = {
   title: "Data on Kubernetes",
   tagline: "Data on K8s is cool",
   url: "https://dokc.github.io",
-  baseUrl: "docs-rap-god-api/",
+  baseUrl: "/docs-rap-god-api/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/dok-icon.png",
